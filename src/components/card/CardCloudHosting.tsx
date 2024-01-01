@@ -32,7 +32,7 @@ export default function CardCloudHosting({
         <h4 className="text-2xl font-semibold">{name}</h4>
       </div>
       <div className="space-y-1">
-        <div className="text-[#6C757D]">{price}</div>
+        <div className="text-[#6C757D] line-through">{price}</div>
         <div className="text-[#FF6D0B] text-3xl font-semibold">{diskon}</div>
       </div>
       <div className="space-y-5">
